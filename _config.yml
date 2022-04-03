@@ -3,7 +3,7 @@ repository: young891221/young891221.github.io
 # favicon: images/favicon.ico
 
 # Personal info
-name: 김영재(작성중)
+name: 김영재
 title: Java 백엔드 엔지니어
 email: young891221@gmail.com
 website: https://haviyj.tistory.com
@@ -20,7 +20,7 @@ github_username:  young891221
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/15729299.jpg
 about_content: | # this will include new lines to allow paragraphs
   7년차 백엔드 개발자로 LINE의 분산 처리 환경에서 **월 평균 14억건**의 결제 시스템과 **일 PV 2,000만** 환경의 ZUM포털에서 다양한 개발 경험을 쌓았습니다.
   팀 내 생산성을 높이고 동료들에게 선한 영향력을 행사하고자 노력하였습니다. 덕분에 legacy 시스템을 개선시켜 다양한 자동화 모듈들을 개발하였고 효과적인 모니터링 운영 방식을 도입시켜 인정받았습니다.
