@@ -6,7 +6,8 @@
   quote: >
     7개 국가, 유저수 약 50억, 월 평균 40억건의 트랜잭션을 처리하는 결제 서비스
   description: | # this will include new lines to allow paragraphs
-    * Billing Core System 개편(2022 LINE WOW Project 최종 후보)
+    * Billing Core System 개편
+    * 2022 LINE WOW Project 최종 후보
     * Point System Main 개발자
     * 약 30개의 Global PG 결제 처리 시스템 경험
     * PG 결제 시스템 서비스 연동 자동화
