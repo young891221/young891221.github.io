@@ -1,9 +1,9 @@
 - layout: top-middle
-  name: Paypay & LINE Point 통합 서비스 설계 & 개발
+  name: Yahoo Paypay & LINE Point 통합 서비스 설계 개발
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * Yahoo Paypay와 LINE Point 연동 개발 리딩
+    * Yahoo Paypay Point & LINE Point 통합 연동 개발 리딩
 
 - layout: top-middle
   name: LINE Billing Payment Core System(PLUTUS)
@@ -12,10 +12,10 @@
     10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템
   description: | # this will include new lines to allow paragraphs
     * 2022 LINE WOW Project 최종 후보
-    * 약 47억 유저 & 150억 결제 내역 안정적으로 마이그레이션
-    * 분기별로 약 41억건의 트랜잭션 처리
-    * 월 약 5억원 운영 비용 감소 효과
-    * 초기 프로젝트 구조 세팅을 전담하여 95% Line Test Coverage 달성
+    * **약 47억 유저 & 150억** 결제 내역 안정적으로 마이그레이션
+    * 분기별로 **약 41억건의 트랜잭션 처리**
+    * **월 약 5억원 운영 비용 감소 효과**
+    * 초기 프로젝트 구조 세팅을 전담하여 **95% Line Test Coverage** 달성(3급 이상 장애 비율 0건)
 
 - layout: top-middle
   name: Event Driven by Kafka
@@ -35,7 +35,7 @@
   description: | # this will include new lines to allow paragraphs
     * 기능 단위로 시스템 성능치를 자동으로 체크화하여 데이터를 쌓고 그래프화하여 안정적인 서버 운영
     * Git Hook & Jenkins & nGrinder를 활용하여 PR단위의 성능 테스트 자동화 개발
-    * Fintech 사내 발표자로 공유
+    * **Fintech 사내 발표자로 공유**
 
 - layout: top-middle
   name: LINE Point System
@@ -44,6 +44,8 @@
   description: | # this will include new lines to allow paragraphs
     * LINE Point 메인 개발 담당
     * 6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 & 데이터 운영 & 정산 서포트
+    * [LINE Point Club 연동 개발](https://about.paypay.ne.jp/pr/20210316/01/)
+    * 태국, 대만 뱅킹 리워드 기능 개발
 
 - layout: top-middle
   name: LINE Global PG Gateway System
@@ -53,8 +55,9 @@
     * 다양한 국가의 웹 결제를 지원하는 웹 프론트 시스템 개발/운영
     * 다양한 국가의 PG 개발 및 여러 국가와의 협업 경험(JP, TW, TH, ID, US etc)
     * PG - LINE Pay, Paypal, SBPS, GMO, Nice Pay, Seven eleven etc(about 30 PG)
-    * Payment Type - Credit Card, Carrier, Barcode, Point etc
+    * 다양한 결제 타입 경험
+      * Credit Card, Carrier, Barcode, Point etc
     * PG & Service 연동 자동화 개발
-    ** 기존 PG와 신규 서비스 연동시 매번 코드를 추가 작성하는 부분을 모듈화하여 자동화
-    ** 팀내 생산성 향상(7MD → 1MD)
-    ** 반복되는 개발 프로세스를 줄이며 주요 성과로 인정
+      * 기존 PG와 신규 서비스 연동시 매번 코드를 추가 작성하는 부분을 모듈화하여 자동화
+      * **팀내 생산성 향상(7MD → 1MD)**
+      * 반복되는 개발 프로세스를 줄이며 주요 성과로 인정
