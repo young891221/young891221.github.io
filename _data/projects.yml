@@ -8,7 +8,8 @@
 - layout: top-middle
   name: LINE Billing Payment Core System(PLUTUS)
   link:
-  quote: > 10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템
+  quote: >
+    10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템
   description: | # this will include new lines to allow paragraphs
     * 2022 LINE WOW Project 최종 후보
     * 약 47억 유저 & 150억 결제 내역 안정적으로 마이그레이션
