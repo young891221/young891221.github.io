@@ -1,16 +1,16 @@
 - layout: left
-  company: LINE Biz Plus
+  company: LINE Plus
   link: https://line.me/ko/
-  job_title: LINE Global Billing Platform Developer
+  job_title: LINE Global Billing Platform Software Engineer
   dates: 2018.06 ~ 현재
   quote: >
     7개 국가, 유저수 약 50억, 월 평균 40억건의 트랜잭션을 처리하는 결제 서비스
   description: | # this will include new lines to allow paragraphs
-    * Billing Core System 개편
-    * 2022 LINE WOW Project 최종 후보
-    * Point System Main 개발자
-    * 약 30개의 Global PG 결제 처리 시스템 경험
-    * PG 결제 시스템 서비스 연동 자동화
+    * LINE Point System <mark>Leading</mark>
+    * LINE Point 정산 시스템 <mark>Leading</mark>
+    * Billing Core System 개발
+    * 2022 LINE WOW Project 최종 후보 선정
+    * 약 30개의 Global PG 결제 처리 시스템 개발 & 운영 
     * 테스트 코드 & 코드리뷰 & 아키텍처 개선 & 응답속도(성능) & 모니터링 등 전반적인 개발환경 개선
 - layout: left
   company: Zuminternet
@@ -18,7 +18,7 @@
   job_title: Zuminternet Software Engineer
   dates: 2016.03 ~ 2018.05
   quote: >
-    일일 PV 2000만의 포탈 서비스
+    일 PV 2000만의 포탈 서비스
   description: | # this will include new lines to allow paragraphs
     * 포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영
     * 다양한 Front 캐시전략 경험

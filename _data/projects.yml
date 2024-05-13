@@ -1,15 +1,24 @@
 - layout: top-middle
-  name: Yahoo Paypay & LINE Point 통합 서비스 설계 개발
+  name: LINE Point 정산 시스템 신규 개발 Leading
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * Yahoo Paypay Point & LINE Point 통합 연동 개발 리딩
+    * New Point 정산 시스템 개발
+    * 정산 시스템 완전 자동화로 **운영 효율성 100% 상승**
+    * 성능 튜닝으로 기존 대비 **70% 성능 향샹**(정산 소요시간 5시간 -> 2시간)
 
 - layout: top-middle
-  name: LINE Billing Payment Core System(PLUTUS)
+  name: Yahoo Paypay & LINE Point 통합 개발 Leading
   link:
   quote: >
-    10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템
+  description: | # this will include new lines to allow paragraphs
+    * Yahoo Paypay Point & LINE Point 설계 & 개발
+
+- layout: top-middle
+  name: LINE Billing Payment Core System
+  link:
+  quote: >
+    10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템 개편
   description: | # this will include new lines to allow paragraphs
     * 2022 LINE WOW Project 최종 후보
     * **약 47억 유저 & 150억** 결제 내역 안정적으로 마이그레이션
