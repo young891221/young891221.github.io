@@ -4,7 +4,7 @@
   quote: >
     Fix Spring Cloud Gateway Performance Issue
   description: | # this will include new lines to allow paragraphs
-    * 신규 API Gateway 도입을 위해 여러 Gateway 라이브러리 성능 테스트 진행중 Spring Cloud Gateway의 성능저하 포인트 발견 & 개선
+    * 신규 API Gateway 도입을 위해 여러 Gateway 라이브러리 성능 테스트 진행중 Spring Cloud Gateway의 성능저하 포인트 발견하여 개선
     * [ISSUE](https://github.com/spring-cloud/spring-cloud-gateway/issues/760) / [PR](https://github.com/spring-cloud/spring-cloud-gateway/pull/765)
 
 - layout: left
@@ -14,7 +14,7 @@
     Support JDK9 functions for LINE Armeria
   description: | # this will include new lines to allow paragraphs
     * Netty의 메인 컨트리뷰터 이희승님이 개발하는 Armeria project
-    * JDK9의 신규 API 기능 지원 [PR](https://github.com/line/armeria/pull/2052)
+    * JDK9의 신규 API 기능 개발 [PR](https://github.com/line/armeria/pull/2052)
 
 - layout: left
   name: LINE Decaton

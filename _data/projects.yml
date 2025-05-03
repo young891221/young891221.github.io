@@ -1,18 +1,41 @@
 - layout: top-middle
+  name: LINE PJ Shield Project Leading
+  link:
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * 최근 합병으로 인해 N사와 연결된 모든 프로젝트를 정리하는 작업을 **실 개발 Lead 담당**
+    * Deploy, Monitoring, Log, Alarm, WF, Redis, Sharding DB, ngrinder, etc FY24 기간내에 마이그레이션
+    * 실차원에서 중복되는 삽질 요소를 최소화하기 위해 각 팀별 분산화하여 조율 
+    * LINE 전사적으로 가장 많은 컴포넌트를 기간내에 Migration 처리 
+
+- layout: top-middle
+  name: Vitess Sharding DB Migration
+  link:
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * PJ Shield 작업중 가장 난이도있는 작업 Lead
+    * Nbase Sharing Platform을 Vitess로 마이그레이션
+    * DBA Tool 지원이 어려워 유저 단위로 마이그레이션 처리하는 어플리케이션 개발하여 진행
+    * **약 47억 유저 & 100억** 결제 내역을 무중단, 무장애로 마이그레이션
+    * 마이그레이션 최적화와 성능 튜닝을 통해 예상일정보다 **2배 빠르게 기간 단축**
+
+- layout: top-middle
   name: LINE Point 정산 시스템 신규 개발 Leading
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * New Point 정산 시스템 개발
-    * 정산 시스템 완전 자동화로 **운영 효율성 100% 상승**
-    * 성능 튜닝으로 기존 대비 **70% 성능 향샹**(정산 소요시간 5시간 -> 2시간)
+    * New Point 정산 시스템 개발 Lead
+    * 기존 재무/정산/기획 담당자가 수동으로 처리하는 부분을 완전 자동화하여 **운영 효율성 100% 상승**
+    * 성능 및 쿼리 튜닝을 통해 기존 대비 **70% 성능 향샹**(정산 소요시간 5시간 -> 2시간)
 
 - layout: top-middle
   name: Yahoo Paypay & LINE Point 통합 개발 Leading
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * Yahoo Paypay Point & LINE Point 설계 & 개발
+    * Yahoo Paypay Point & LINE Point 설계 및 개발
+    * Paypay 결제 API는 async방식으로 콜백이 들어오는 구조라 난관이 있었지만 최대한 조율하여 진행
+    * 정책적인 이슈로 프로젝트 중단되고 향후 진행 예정
 
 - layout: top-middle
   name: LINE Billing Payment Core System
@@ -20,7 +43,7 @@
   quote: >
     10년된 Legacy Core Billing 시스템을 개선한 신규 결제 코어 시스템 개편
   description: | # this will include new lines to allow paragraphs
-    * 2022 LINE WOW Project 최종 후보
+    * 2022 LINE WOW Project 최종 후보(2위)
     * **약 47억 유저 & 150억** 결제 내역 안정적으로 마이그레이션
     * 분기별로 **약 41억건의 트랜잭션 처리**
     * **월 약 5억원 운영 비용 감소 효과**
@@ -51,10 +74,8 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * LINE Point 메인 개발 담당
-    * 6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 & 데이터 운영 & 정산 서포트
-    * [LINE Point Club 연동 개발](https://about.paypay.ne.jp/pr/20210316/01/)
-    * 태국, 대만 뱅킹 리워드 기능 개발
+    * LINE Point 개발 Lead
+    * 6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 & 데이터 운영 & 정산 처리 개발
 
 - layout: top-middle
   name: LINE Global PG Gateway System

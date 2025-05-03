@@ -3,7 +3,7 @@
   description: | # this will include new lines to allow paragraphs
     * Java, Groovy, Python
     * Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis
-    * [Nbase](https://engineering.linecorp.com/ko/blog/line-manga-server-side)(Naver Sharding Platform), Mybatis, JPA, Querydsl, Hibernate
+    * [Vitess](https://vitess.io), [Nbase](https://engineering.linecorp.com/ko/blog/line-manga-server-side)(Naver Sharding Platform), Mybatis, JPA, Querydsl, Hibernate
     * Jest, Junit4/5, Mockito, Spock
     * Gradle, Maven
     * IntelliJ
