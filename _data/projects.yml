@@ -2,18 +2,18 @@
   name: LINE PJ Shield Project Leading
   link:
   quote: >
+    LINE 전사적으로 가장 많은 컴포넌트를 기간내에 Migration 처리
   description: | # this will include new lines to allow paragraphs
     * 최근 합병으로 인해 N사와 연결된 모든 프로젝트를 정리하는 작업을 **실 개발 Lead 담당**
     * Deploy, Monitoring, Log, Alarm, WF, Redis, Sharding DB, ngrinder, etc FY24 기간내에 마이그레이션
     * 실차원에서 중복되는 삽질 요소를 최소화하기 위해 각 팀별 분산화하여 조율 
-    * LINE 전사적으로 가장 많은 컴포넌트를 기간내에 Migration 처리 
 
 - layout: top-middle
   name: Vitess Sharding DB Migration
   link:
   quote: >
+    PJ Shield 작업중 가장 난이도있는 작업 Lead
   description: | # this will include new lines to allow paragraphs
-    * PJ Shield 작업중 가장 난이도있는 작업 Lead
     * Nbase Sharing Platform을 Vitess로 마이그레이션
     * DBA Tool 지원이 어려워 유저 단위로 마이그레이션 처리하는 어플리케이션 개발하여 진행
     * **약 47억 유저 & 100억** 결제 내역을 무중단, 무장애로 마이그레이션
@@ -23,8 +23,8 @@
   name: LINE Point 정산 시스템 신규 개발 Leading
   link:
   quote: >
+    New Point 정산 시스템 개발 Lead
   description: | # this will include new lines to allow paragraphs
-    * New Point 정산 시스템 개발 Lead
     * 기존 재무/정산/기획 담당자가 수동으로 처리하는 부분을 완전 자동화하여 **운영 효율성 100% 상승**
     * 성능 및 쿼리 튜닝을 통해 기존 대비 **70% 성능 향샹**(정산 소요시간 5시간 -> 2시간)
 
@@ -32,10 +32,10 @@
   name: Yahoo Paypay & LINE Point 통합 개발 Leading
   link:
   quote: >
+    정책적인 이슈로 프로젝트 중단되고 향후 Open 예정
   description: | # this will include new lines to allow paragraphs
     * Yahoo Paypay Point & LINE Point 설계 및 개발
     * Paypay 결제 API는 async방식으로 콜백이 들어오는 구조라 난관이 있었지만 최대한 조율하여 진행
-    * 정책적인 이슈로 프로젝트 중단되고 향후 진행 예정
 
 - layout: top-middle
   name: LINE Billing Payment Core System
@@ -48,46 +48,6 @@
     * 분기별로 **약 41억건의 트랜잭션 처리**
     * **월 약 5억원 운영 비용 감소 효과**
     * 초기 프로젝트 구조 세팅을 전담하여 **95% Line Test Coverage** 달성(3급 이상 장애 비율 0건)
-
-- layout: top-middle
-  name: Event Driven by Kafka
-  link:
-  quote: >
-  description: | # this will include new lines to allow paragraphs
-    * 분산 처리 환경에서 트랜잭션 관리(for Global Region & Sharding DB)
-    * 결제 방식에 따른 Kafka Sync, Async support
-    * Kafka Multi & Bulk Consumer를 통한 성능 튜닝
-    * [Kafka Monitoring 환경 구성](https://engineering.linecorp.com/ko/blog/how-promgen-routes-notifications/)
-    * **2020 LINE Fintech Conference 발표자로 공유**
-
-- layout: top-middle
-  name: Auto Performance Test Infra Setup
-  link:
-  quote: >
-  description: | # this will include new lines to allow paragraphs
-    * 기능 단위로 시스템 성능치를 자동으로 체크화하여 데이터를 쌓고 그래프화하여 안정적인 서버 운영
-    * Git Hook & Jenkins & nGrinder를 활용하여 PR단위의 성능 테스트 자동화 개발
-    * **Fintech 사내 발표자로 공유**
-
-- layout: top-middle
-  name: LINE Point System
-  link:
-  quote: >
-  description: | # this will include new lines to allow paragraphs
-    * LINE Point 개발 Lead
-    * 6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 & 데이터 운영 & 정산 처리 개발
-
-- layout: top-middle
-  name: LINE Global PG Gateway System
-  link:
-  quote: >
-  description: | # this will include new lines to allow paragraphs
-    * 다양한 국가의 웹 결제를 지원하는 웹 프론트 시스템 개발/운영
-    * 다양한 국가의 PG 개발 및 여러 국가와의 협업 경험(JP, TW, TH, ID, US etc)
-    * PG - LINE Pay, Paypal, SBPS, GMO, Nice Pay, Seven eleven etc(about 30 PG)
-    * 다양한 결제 타입 경험
-      * Credit Card, Carrier, Barcode, Point etc
-    * PG & Service 연동 자동화 개발
-      * 기존 PG와 신규 서비스 연동시 매번 코드를 추가 작성하는 부분을 모듈화하여 자동화
-      * **팀내 생산성 향상(7MD → 1MD)**
-      * 반복되는 개발 프로세스를 줄이며 주요 성과로 인정
+    * 분산 처리 환경에서의 트랜잭션 관리를 Kafka로 처리하는 개발 담당
+      * Kafka Multi & Bulk Consumer를 통한 성능 튜닝(**2020 LINE Fintech Conference 발표자로 공유**)
+      * [Kafka Monitoring 환경 구성](https://engineering.linecorp.com/ko/blog/how-promgen-routes-notifications/)

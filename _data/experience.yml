@@ -8,10 +8,11 @@
   description: | # this will include new lines to allow paragraphs
     * LINE Billing L Part <mark>Lead</mark>
     * LINE Point System <mark>Lead</mark>
+      * 6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 & 데이터 운영 & 정산 처리 개발
     * LINE Point 정산 시스템 <mark>Lead</mark>
-    * Billing Core System 개발
+    * LINE Web 결제 시스템 <mark>Lead</mark>
+      * 약 30개의 Global PG 결제 처리 시스템 개발 & 운영
     * 2022 LINE WOW Project 최종 후보 선정(2위)
-    * 약 30개의 Global PG 결제 처리 시스템 개발 & 운영 
     * 테스트 코드 & 코드리뷰 & 아키텍처 개선 & 응답속도(성능) & 모니터링 등 전반적인 개발환경 개선
 - layout: left
   company: Zuminternet

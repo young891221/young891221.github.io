@@ -67,11 +67,18 @@
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">7개 국가, 유저수 약 50억, 월 평균 40억건의 트랜잭션을 처리하는 결제 서비스
 </p><ul>
   <li>LINE Billing L Part <mark>Lead</mark></li>
-  <li>LINE Point System <mark>Lead</mark></li>
+  <li>LINE Point System <mark>Lead</mark>
+    <ul>
+      <li>6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 &amp; 데이터 운영 &amp; 정산 처리 개발</li>
+    </ul>
+  </li>
   <li>LINE Point 정산 시스템 <mark>Lead</mark></li>
-  <li>Billing Core System 개발</li>
+  <li>LINE Web 결제 시스템 <mark>Lead</mark>
+    <ul>
+      <li>약 30개의 Global PG 결제 처리 시스템 개발 &amp; 운영</li>
+    </ul>
+  </li>
   <li>2022 LINE WOW Project 최종 후보 선정(2위)</li>
-  <li>약 30개의 Global PG 결제 처리 시스템 개발 &amp; 운영</li>
   <li>테스트 코드 &amp; 코드리뷰 &amp; 아키텍처 개선 &amp; 응답속도(성능) &amp; 모니터링 등 전반적인 개발환경 개선</li>
 </ul>
 
@@ -95,15 +102,15 @@
   
 </div>
 <div class="container projects-container">
-  <h3>역량</h3>
+  <h3>Project</h3>
   
     <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"><h4>LINE PJ Shield Project Leading</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
+  <div class="col-xs-12 col-print-12"><p class="quote">LINE 전사적으로 가장 많은 컴포넌트를 기간내에 Migration 처리
+</p><ul>
   <li>최근 합병으로 인해 N사와 연결된 모든 프로젝트를 정리하는 작업을 <strong>실 개발 Lead 담당</strong></li>
   <li>Deploy, Monitoring, Log, Alarm, WF, Redis, Sharding DB, ngrinder, etc FY24 기간내에 마이그레이션</li>
   <li>실차원에서 중복되는 삽질 요소를 최소화하기 위해 각 팀별 분산화하여 조율</li>
-  <li>LINE 전사적으로 가장 많은 컴포넌트를 기간내에 Migration 처리</li>
 </ul>
 
   </div>
@@ -112,8 +119,8 @@
   
     <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"><h4>Vitess Sharding DB Migration</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>PJ Shield 작업중 가장 난이도있는 작업 Lead</li>
+  <div class="col-xs-12 col-print-12"><p class="quote">PJ Shield 작업중 가장 난이도있는 작업 Lead
+</p><ul>
   <li>Nbase Sharing Platform을 Vitess로 마이그레이션</li>
   <li>DBA Tool 지원이 어려워 유저 단위로 마이그레이션 처리하는 어플리케이션 개발하여 진행</li>
   <li><strong>약 47억 유저 &amp; 100억</strong> 결제 내역을 무중단, 무장애로 마이그레이션</li>
@@ -126,8 +133,8 @@
   
     <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"><h4>LINE Point 정산 시스템 신규 개발 Leading</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>New Point 정산 시스템 개발 Lead</li>
+  <div class="col-xs-12 col-print-12"><p class="quote">New Point 정산 시스템 개발 Lead
+</p><ul>
   <li>기존 재무/정산/기획 담당자가 수동으로 처리하는 부분을 완전 자동화하여 <strong>운영 효율성 100% 상승</strong></li>
   <li>성능 및 쿼리 튜닝을 통해 기존 대비 <strong>70% 성능 향샹</strong>(정산 소요시간 5시간 -&gt; 2시간)</li>
 </ul>
@@ -138,10 +145,10 @@
   
     <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"><h4>Yahoo Paypay & LINE Point 통합 개발 Leading</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
+  <div class="col-xs-12 col-print-12"><p class="quote">정책적인 이슈로 프로젝트 중단되고 향후 Open 예정
+</p><ul>
   <li>Yahoo Paypay Point &amp; LINE Point 설계 및 개발</li>
   <li>Paypay 결제 API는 async방식으로 콜백이 들어오는 구조라 난관이 있었지만 최대한 조율하여 진행</li>
-  <li>정책적인 이슈로 프로젝트 중단되고 향후 진행 예정</li>
 </ul>
 
   </div>
@@ -157,65 +164,10 @@
   <li>분기별로 <strong>약 41억건의 트랜잭션 처리</strong></li>
   <li><strong>월 약 5억원 운영 비용 감소 효과</strong></li>
   <li>초기 프로젝트 구조 세팅을 전담하여 <strong>95% Line Test Coverage</strong> 달성(3급 이상 장애 비율 0건)</li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Event Driven by Kafka</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>분산 처리 환경에서 트랜잭션 관리(for Global Region &amp; Sharding DB)</li>
-  <li>결제 방식에 따른 Kafka Sync, Async support</li>
-  <li>Kafka Multi &amp; Bulk Consumer를 통한 성능 튜닝</li>
-  <li><a href="https://engineering.linecorp.com/ko/blog/how-promgen-routes-notifications/">Kafka Monitoring 환경 구성</a></li>
-  <li><strong>2020 LINE Fintech Conference 발표자로 공유</strong></li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Auto Performance Test Infra Setup</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>기능 단위로 시스템 성능치를 자동으로 체크화하여 데이터를 쌓고 그래프화하여 안정적인 서버 운영</li>
-  <li>Git Hook &amp; Jenkins &amp; nGrinder를 활용하여 PR단위의 성능 테스트 자동화 개발</li>
-  <li><strong>Fintech 사내 발표자로 공유</strong></li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>LINE Point System</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>LINE Point 개발 Lead</li>
-  <li>6개 국가, 약 50개 LINE Service를 위한 포인트 기능 개발 &amp; 데이터 운영 &amp; 정산 처리 개발</li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>LINE Global PG Gateway System</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li>다양한 국가의 웹 결제를 지원하는 웹 프론트 시스템 개발/운영</li>
-  <li>다양한 국가의 PG 개발 및 여러 국가와의 협업 경험(JP, TW, TH, ID, US etc)</li>
-  <li>PG - LINE Pay, Paypal, SBPS, GMO, Nice Pay, Seven eleven etc(about 30 PG)</li>
-  <li>다양한 결제 타입 경험
+  <li>분산 처리 환경에서의 트랜잭션 관리를 Kafka로 처리하는 개발 담당
     <ul>
-      <li>Credit Card, Carrier, Barcode, Point etc</li>
-    </ul>
-  </li>
-  <li>PG &amp; Service 연동 자동화 개발
-    <ul>
-      <li>기존 PG와 신규 서비스 연동시 매번 코드를 추가 작성하는 부분을 모듈화하여 자동화</li>
-      <li><strong>팀내 생산성 향상(7MD → 1MD)</strong></li>
-      <li>반복되는 개발 프로세스를 줄이며 주요 성과로 인정</li>
+      <li>Kafka Multi &amp; Bulk Consumer를 통한 성능 튜닝(<strong>2020 LINE Fintech Conference 발표자로 공유</strong>)</li>
+      <li><a href="https://engineering.linecorp.com/ko/blog/how-promgen-routes-notifications/">Kafka Monitoring 환경 구성</a></li>
     </ul>
   </li>
 </ul>
